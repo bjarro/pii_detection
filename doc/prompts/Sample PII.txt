@@ -1,0 +1,96 @@
+How do I train TFBertForTokenClassification for my labels:
+
+
+
+
+Given these labels:
+
+O
+B-EMAIL
+B-ID_NUM
+B-NAME_STUDENT
+B-PHONE_NUM
+B-STREET_ADDRESS
+B-URL_PERSONAL
+B-USERNAME
+I-ID_NUM
+I-NAME_STUDENT
+I-PHONE_NUM
+I-STREET_ADDRESS
+I-URL_PERSONAL
+
+
+I want you perform NER on this following text (You can omit the 'O' label):
+
+Design Thinking for innovation reflexion-Avril 2021-Nathalie Sylla\n\nChallenge & selection\n\nThe tool I use to help all stakeholders finding their way through the complexity of a project is the  mind map.\n\nWhat exactly is a mind map? According to the definition of Buzan T. and Buzan B. (1999, Dessine-moi  l'intelligence. Paris: Les Éditions d'Organisation.), the mind map (or heuristic diagram) is a graphic  representation technique that follows the natural functioning of the mind and allows the brain's  potential to be released. Cf Annex1\n\nThis tool has many advantages:\n\n•  It is accessible to all and does not require significant material investment and can be done  quickly\n\n•  It is scalable\n\n•  It allows categorization and linking of information\n\n•  It can be applied to any type of situation: notetaking, problem solving, analysis, creation of  new ideas\n\n•  It is suitable for all people and is easy to learn\n\n•  It is fun and encourages 
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------
+
+Design Thinking for innovation reflexion-Avril 2021-Nathalie Sylla
+
+Challenge & selection
+
+The tool I use to help all stakeholders finding their way through the complexity of a project is the  mind map.
+
+What exactly is a mind map? According to the definition of Buzan T. and Buzan B. (1999, Dessine-moi  l'intelligence. Paris: Les Éditions d'Organisation.), the mind map (or heuristic diagram) is a graphic  representation technique that follows the natural functioning of the mind and allows the brain's  potential to be released. Cf Annex1
+
+This tool has many advantages:
+
+•  It is accessible to all and does not require significant material investment and can be done  quickly
+
+•  It is scalable
+
+•  It allows categorization and linking of information
+
+•  It can be applied to any type of situation: notetaking, problem solving, analysis, creation of  new ideas
+
+•  It is suitable for all people and is easy to learn
+
+•  It is fun and encourages exchanges
+
+•  It makes visible the dimension of projects, opportunities, interconnections
+
+•  It synthesizes
+
+•  It makes the project understandable
+
+•  It allows you to explore ideas
+
+The creation of a mind map starts with an idea/problem located at its center. This starting point  generates ideas/work areas, incremented around this center in a radial structure, which in turn is  completed with as many branches as new ideas.
+
+This tool enables creativity and logic to be mobilized, it is a map of the thoughts.
+
+Creativity is enhanced because participants feel comfortable with the method.
+
+Application & Insight
+
+I start the process of the mind map creation with the stakeholders standing around a large board  (white or paper board). In the center of the board, I write and highlight the topic to design.
+
+Through a series of questions, I guide the stakeholders in modelling the mind map. I adapt the series  of questions according to the topic to be addressed. In the type of questions, we can use: who, what,  when, where, why, how, how much.
+
+The use of the “why” is very interesting to understand the origin. By this way, the interviewed person  frees itself from paradigms and thus dares to propose new ideas / ways of functioning. I plan two  hours for a workshop.
+
+Design Thinking for innovation reflexion-Avril 2021-Nathalie Sylla
+
+After modelling the mind map on paper, I propose to the participants a digital visualization of their  work with the addition of color codes, images and interconnections. This second workshop also lasts  two hours and allows the mind map to evolve. Once familiarized with it, the stakeholders discover  the power of the tool. Then, the second workshop brings out even more ideas and constructive  exchanges between the stakeholders. Around this new mind map, they have learned to work  together and want to make visible the untold ideas.
+
+I now present all the projects I manage in this type of format in order to ease rapid understanding for  decision-makers. These presentations are the core of my business models. The decision-makers are  thus able to identify the opportunities of the projects and can take quick decisions to validate them.  They find answers to their questions thank to a schematic representation.
+
+Approach
+
+What I find amazing with the facilitation of this type of workshop is the participants commitment for  the project. This tool helps to give meaning. The participants appropriate the story and want to keep  writing it. Then, they easily become actors or sponsors of the project. A trust relationship is built,  thus facilitating the implementation of related actions.
+
+Design Thinking for innovation reflexion-Avril 2021-Nathalie Sylla
+
+Annex 1: Mind Map Shared facilities project
+
+

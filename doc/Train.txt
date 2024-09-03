@@ -1,0 +1,7 @@
+BIO versions
+
+Predict words - No, inputs are subwords
+Predict tokens - Yes:
+ - Entity only
+ - BIO - actual beginning
+ - BIO - Distribute word

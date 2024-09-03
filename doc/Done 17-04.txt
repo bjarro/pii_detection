@@ -1,0 +1,15 @@
+Done:
+
+Prio:
+ - Check other NER datasets 
+   - mostly contains per, loc, org
+ - Check polyglot NER
+    - only ORG PER LOC
+ - Check other PII datasets
+   - None
+Improvements
+ - implement to_bio versions
+ - Filter by to_bio counts
+ - Inspect dataset
+    - Almost Done
+

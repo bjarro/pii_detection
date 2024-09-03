@@ -1,0 +1,5 @@
+Pipeline:
+ - Handle token limits (512 for BERT)
+
+Contextual analysis:
+ - Detect formatting sections (Header/Footer etc.)

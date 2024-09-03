@@ -1,0 +1,17 @@
+Question:
+
+In Tokenize Function:
+
+1. Convert label to model id
+  - Must be converted back to dataset id before computing metrics
+  - Training:
+    - Can continue training using original head
+  
+  
+2. Dont do conversion
+  - (Uniform) - Can be directly used with compute_metrics
+  - Training:
+     - Can't continue training using original head
+     - will try to learn new dataset labels inefficiently (possible different alignment and # of labels)
+
+

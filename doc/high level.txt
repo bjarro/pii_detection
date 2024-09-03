@@ -1,0 +1,37 @@
+preprocess_from_words
+ - align words
+ - label conversion
+
+
+preprocess_from_spans
+ - spans to words
+ - preprocess_from_words
+
+Orig dataset
+ - preprocess from words
+
+
+Pipeline:
+
+
+X. Cleaning
+
+1. Split with stratification
+  - get label counts
+  - cluster
+  - test_train_split
+
+2. preprocess train and valid split
+  - convert to datasets
+  - tokenize and align
+
+
+3. Train
+
+
+4. Postprocessing
+  - Subword to words
+  - Label conversions
+
+5. Analysis
+ - Contributions

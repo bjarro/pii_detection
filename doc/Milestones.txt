@@ -1,0 +1,5 @@
+1. Exhaust question queue
+2. Study PII Pipeline
+3. Build and run baseline model
+4. Experiment with baseline model (local)
+5. Finish PII Pipeline and NER study

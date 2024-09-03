@@ -1,0 +1,25 @@
+Observations:
+
+
+01 - B_Email - Good Recall, Very bad precision
+
+02 - B-ID_NUM - Misadentified as Phone_number or 'O', Very bad FP
+08 - I-ID_NUM - Not enough samples, no recall, bad FP
+
+03 - B-Name_Student - Good Recall, Bad FP
+09 - I-Name_Student - Good Recall, Bad Precision (Better than B-)
+
+04 - B-Phone_Number - Not enough samples, Okay recall, Very bad FP
+10 - I-Phone-Number - Not enough samples, good recall, very bad FP
+     - weird: More I- labels than B-
+
+05 - B-StreetAddress - Not enough samples, No recall, very bad FP
+11 - I- Street Address - Not enough samples, Mid Recall, Very bad FP
+
+06 - URL_Personal - misidentified as Email or 'O', No recall, very bad FP
+12 - I-URL Personal - Not enough samples, no recall, no FP
+
+07 - B-Username - Not enough samples, no recall, no FP
+
+
+

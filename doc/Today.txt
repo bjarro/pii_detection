@@ -1,0 +1,42 @@
+1. Trainer API
+  - Define the following:
+    - Custom dataset (Done)
+    - Preprocessing (Done)
+    - Data Collator (Done)
+     - Metric computation and Postprocessing
+        - Alignment (Done)
+        - Thresholding (Half)
+        - Metrics (Half)
+
+1. Refactor and Package (Manual)
+  - Implement batch inference
+      - Implement Data Collator for inputs
+      - Convert everything to tensor
+      - Convert to correct data structures /format/type
+      - use packaged code into validation pipeline
+  - Implement batch scoring
+  - implement splitting of data into train/validation set
+  - implement adding of external data
+
+2. Run on whole dataset
+3. Fine tune current model on current dataset
+
+In progress:
+
+ - Figure out training tokenization  (Done)
+    - Word labels to token labels   (Done)
+      - Use existing code to convert during preprocessing  (Done)
+    - or use starter tokenization
+
+
+Done Other:
+
+
+Prompts:
+
+When creating NLP pipelines, using Hugging Face Trainer API in this case, which is better: computing mappings and other features (like for token alignment) during preprocessing and adding it to the dataset or computing everything during the postprocessing and metric computation step or the order does not matter?
+
+
+
+
+Let's say I have an n by m ndarray, How can I get the highest in the m dimension per for every m subarray in the n dimension?

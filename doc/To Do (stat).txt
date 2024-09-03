@@ -1,0 +1,35 @@
+Comparison code:
+
+--- Research:
+
+McNemar's Test (Done)
+Bootstrap Resampling
+Paired t-test or Wilcoxon Signed-Rank Test
+Effect Size Measures: In addition to assessing statistical significance, consider calculating effect size measures such as Cohen's d (for t-tests) or r (for Wilcoxon signed-rank test)
+
+Dependent t-test
+
+Binomial sign test, Sign Rank test
+exact binomial test
+confidence intervals
+Adjusted p-values
+  - Bonferroni correction
+  - False discovery rate
+
+
+Learn stat:
+p-value
+chi-square distribution
+degree of freedom
+
+
+
+
+Significance of delta
+
+
+
+--- Implement
+- Summary of significant changes
+- Display improvements, worse results
+- Confusion matrix diff (Green,Red colormap)

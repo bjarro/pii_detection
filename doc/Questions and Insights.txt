@@ -1,0 +1,17 @@
+
+Possible questions:
+
+How much each class contributes to the total score?
+If this specific class is improved, how does it affect the total score?
+  Is this class worth improving?
+
+
+Questions:
+
+How much does this specific number of TP/FP/FN affect the total score?
+How much improvement will it make if the TP/FP/FN changes to this value
+If this TP/FP/FN is changed/improved, how will it affect the total score?
+
+Is precision for this class worth improving?
+Is recall for this class worth improving?
+Should we encourage the model to try to predict this class?

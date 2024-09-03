@@ -1,0 +1,30 @@
+--- Data Preparation and Annotation
+
+Learn about Named Entity Recognition (NER). Understand what entities are and why NER is crucial for various NLP applications.
+
+Advantages and disadvantages of different annotation schemes like BIO (Begin, Inside, Outside).
+
+Usual process of manually annotating data for NER tasks
+
+--- Feature Engineering and Representation
+Explore various features used in NER, including word embeddings (Word2Vec, GloVe), character embeddings, and context window features.
+
+Understand the importance of feature engineering in training NER models. Learn about feature representation techniques, such as TF-IDF.
+
+--- NER Algorithms and Models
+
+Study popular NER algorithms and models, such as Conditional Random Fields (CRF), Hidden Markov Models (HMM), and deep learning-based models like Bidirectional LSTMs or Transformers
+.
+Days 37-40: Experiment with pre-trained NER models provided by libraries like spaCy or transformers (Hugging Face).
+
+------------- Hands on:
+- Familiarity with libraries
+  - spaCy
+  - Brat
+  - Prodigy
+
+- Familiarity with feature enginnering techniques and their effects:
+  - word embeddings (Word2Vec, GloVe
+  -  character embeddings, and 
+  - context window features.
+  - TF-IDF

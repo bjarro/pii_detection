@@ -1,0 +1,68 @@
+
+
+---- Data Access
+
+1. Create initial notebook 
+  - load the data (Done)
+  - manually inspect (Done)
+  - navigate JSON (??)
+
+
+2. Create filtering and alternate representation 
+  - Implement get snippet by label | (Initial impl)
+     - Group df by label | (Done)
+     - Apply visualization |(Done)
+         - Whole document
+         - Snippet + Relevant info (Position) |(Postponed)
+     
+  - Transform document to dataframe (Done)
+     - Brainstorm format (Done)
+
+---- NER Experiment 
+
+0. Understand NER
+  - is NER enough for PII (no)
+  - Main problem: default NER recall is bad
+  - Pipeline Ideas
+  - NLP Models in general
+
+1. Create 3 Baseline NER Models
+  - Submit best baseline results if acceptable
+  -  Models:
+    - spaCy (Done)
+    - BERT (Done)
+    - DeBERTa (Prio)
+
+2. Prepare data for NER and comparisons
+  - Tokenization
+    - BERT Tokenizer (Done)
+    - spaCy Tokenizer (Done)
+  - Handle Token limit
+    - Chunking (To Do)
+
+3. Testing
+  - Metrics (Prio)
+    - F1-Beta Score
+    - PII Accuracy
+    - PII Recall
+    - Per Label Scores
+    - All Label Scores
+
+
+---- Improvements and Fundamentals
+
+ - NLP Techniques and Feature Engineering
+   - Toke
+   - POS patterns
+     - Start with EDA
+   - 
+ - Simple detections
+   - Regex / Pattern Recognition
+ 
+
+
+
+---- Pipeline Creation
+
+
+

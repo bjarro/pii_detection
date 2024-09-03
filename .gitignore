@@ -1,0 +1,86 @@
+
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+*.py[cod]
+__pycache__/
+*.so
+# Environment variables
+.env
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.parquet
+*.feather
+*.h5
+*.db
+*.sqlite3
+*.zip
+*.gz
+*.bz2
+*.7z
+
+# Machine learning models
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Logs
+*.log
+logs/
+
+# Output files
+# *.png
+# *.jpg
+# *.jpeg
+# *.pdf
+# *.svg
+# *.html
+# *.xlsx vc
+# *.docx
+# *.pptx
+# results/
+# output/
+
+# IDE-specific files
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*.bkp
+
+# Compiled files
+*.out
+*.o
+*.so
+
+# Auto Append
+.git/objects/3b/2cb364e3540ba361682d1d391ee06f91653cec
+.git/objects/84/cb48a183bfb3fe3f4471e1110e9c8deb97128a
+.git/objects/c0/tmp_obj_NIS1xU
+fine_tuned/yanis/checkpoint-3000/model.safetensors
+fine_tuned/yanis/checkpoint-3000.zip
+fine_tuned/yanis/yanis-02/model.safetensors
+fine_tuned/yanis/yanis_01/model.safetensors
+fine_tuned/yanis/yanis_01.zip
+fine_tuned/yanis-02/best/yanis-02-best/model.safetensors
+fine_tuned/yanis-02-best-c.zip
+fine_tuned/yanis-02-best.zip
+in/np_label_ids.npy
+in/preds01.npy
+in/preds02.npy
+in/preprocessed_dataset_2/data-00000-of-00001.arrow
+in/tokenized_datasets/data-00000-of-00001.arrow
+in/train.json
+results/yanis_02/preds_train01.npy
+results/yanis_02/preds_valid01.npy

@@ -1,0 +1,28 @@
+Can you implement a token classification pipeline for NER using a BERT Model with the following requirements.
+
+1. Tokenize the text using the model's tokenizer
+2. Run an inference
+3. Get the predicted labels for each token
+4. Get a mapping of which tokens/subword correspond to a word (word_ids)
+5. Label each word by getting the majority label of the word's corresponding subword
+
+
+--------------------------------------
+
+
+1. Use the word_ids attribute from the tokenizer to keep track of 
+
+
+Please fix the following mistakes:
+
+1. Remove redundancy in the tokenization part. Just run the tokenizer once, and save the input_ids and the the word to subword mapping using word_ids() method
+2. Make sure you understand that the usage of word_ids is different from the input_ids
+
+
+Please fix the following mistakes:
+
+1. In tokenization step, we dont need offsets_mapping for now
+2. For step 4, you must first get a list of words, either from the original string or by rebuilding the tokens
+3. Then you need to create a list of which tokens or subwords correspond to a word using the word_ids variable
+4. Then you need to iterate through those pair of words-subwords so we can count which is the majority label
+5. Create a list of tuples containing the word and the majority label

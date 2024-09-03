@@ -1,0 +1,101 @@
+ Latest
+
+
+ - Implement easy visualization function:
+   - Inputs: preprocessed dataset, np_preds, index, vis_type=words/tokens
+ - Implement token vis
+ - Implement word vis
+
+
+
+ - Implement stratification
+   - Get label distributions per row
+   - categorize/cluster
+   - stratify by category
+ - Split into Train/Validation
+ - adapt old preprocessing steps
+   - check if pipeline works with df
+      - NO
+   - Convert back to hf_dataset
+   - map both sets with preprocessing code
+ - save dataset for future use
+ - Refactor and move to base py
+ - fine-tune model on new train set
+
+
+ - Inspect OpenPII target classes
+   - EMAIL (Done)
+   - Tel (In Progress)
+      - Compare with original dataset (Almost Done)
+   - ID-NUM related
+     - Check credit
+     - Check social security
+     - Check 
+   - I-Name related (Can be skipped because of previous error)
+     - Check difference between givenname and lastname
+     - Check difference between lastname
+
+ - Implement criteria for selecting data
+   - High # of label counts (target words)
+   - High o_density (paragraph form)
+ - Implement criteria for specifying # of data
+
+
+
+ - Retrain with fixed orig dataset
+ - Retrain with external dataset
+ - from fixed dataset - cumulative train with external dataset
+
+ - Compile data to new dataset
+
+Future:
+ - Train on new dataset
+
+Submission
+ - Check submission rules and submit
+
+Resume
+ - Summarize latest and chatgpt
+
+
+To Do:
+
+Submit model
+
+Search datasets:
+ - ID Number
+ - URL Personal
+ - Phone Number
+ - Last Names
+
+
+
+OpenPII Dataset
+ - Write code vor visualizing from spans
+ - Write code for converting spans to list of labels
+ - Write comparison code for checking if orig_token_labels if different from token_labels generated from spans
+ - Get label counts for whole dataset
+
+
+
+Refactor:
+ - Contribution from Count Metrics
+
+Move to base pii:
+ - Comparison and Metrics code
+ - Span Vis code
+ - Span to Labels code
+
+
+Done:
+ - Implement/refactor new alignment code
+   - span to tokenized (spacy)
+   - spacy/words to subwords (Done)
+   - to bio (Done)
+
+
+
+
+
+
+ 

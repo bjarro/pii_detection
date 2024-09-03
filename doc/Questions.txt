@@ -1,0 +1,12 @@
+Whitespace in a document
+ - Is formatting preserved?
+   - Do consecutive whitespaces correlate with the existence of a PII nearby
+ - Can presence/absence of trailing whitespace predict if the next value is PII or not
+
+
+Problem
+ - What is the main problem we are trying to solve
+   - Is it that NER models dont predict the PII we are trying to identify
+   - Or is that we dont know if the output of the NER model is PII or not?
+
+

@@ -1,0 +1,74 @@
+
+
+
+When to convert to BIO
+
+
+Tokens
+A - from Model id (actual prediction): No - No BIO version
+ A.A  - YES - convert first to dataset entities
+ A.B  - YES - create BIO mappings of model labels (unnecessary)
+B - from dataset id (actual prediction): Depends on label alignment from words 
+ B.A - NO - Approach 1 already in same BIO 
+ B.B - YES - Just to see possible token-level performance (unnecessary)
+        - 'B-'labels will be likely converted to 'I-' during majority voting (conversion to words)
+ B.C  - Yes - Approach 2 - Unhandled
+      - 
+
+
+Word
+1 - from dataset token (actual prediction / aligned prediction): Depends on result
+   1.1 - NO - See actual result of fine-tune model
+   1.2 - YES - If better performance
+
+2 - from dataset token (converted from to_bio_vect): 
+  - YES - need to run again because previous to_bio_vect results is aligned based on subwords
+  
+3 - from model tokens (non-bio, actual prediction): YES
+  3.1- Yes - convert to dataset entities - run BIO
+
+
+
+
+Label alignment
+
+Approach 1:
+ - first subword of entity is B-
+ - equivalent to first subword of 'B-' word is 'B-', everything else is 'I-'
+
+Approach 2:
+ - Distribute word labels to words
+
+
+
+Yanis adapted
+ - A.A - conv to dataset_id -> BIO
+ - 2 - rerun BIO
+
+
+Yanis fine-tuned
+ - B.A - Do nothing
+ - 1.1 - Do nothing or 1.2 (currently 1.2) - BIO
+
+
+Possible Cases:
+
+Token
+ - to dataset entities -> to Bio 
+ - Do nothing
+
+Word
+ - Convert to dataset entities -> To BIO
+ - Do Nothing
+
+
+Implementation:
+
+booleans:
+
+will_bio_tokens
+will_bio_word
+
+
+
+

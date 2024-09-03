@@ -1,0 +1,57 @@
+--- Initial
+1. Study PII Pipeline
+2. Study NER
+3. Study DeBERTa and prereq
+4. Fully understand the metrics (F-score / F-beta-score) 5x for recall
+5. Write EDA tool(s)
+6. Fully understand baseline implementation
+
+---  Parts:
+
+
+
+Detection and Recognition
+ - (NER)
+ - Regex
+
+Decider  -   Chance / Context analyzer
+   - POS
+   - Custom labels
+   - Other AI Models
+   - 
+
+Scorer
+ - Recall(5) vs Precision
+ - 
+
+Score optimizer
+   - Supervised? 
+
+
+--- Concepts:
+
+
+
+--- Questions:
+Best PII pipeline curently
+F-score, F-beta score
+ - What is considered good
+ - How good is current best score
+Convert JSON labels to dataframe
+
+--- Prompts:
+
+In a PII Identification task, what is considered a good f-beta score
+
+
+Can you give me a roadmap and maybe a timeline estimate for understanding and implementing my own PII identification architecture
+
+How about this use-case: 
+
+I have a dataset in JSON format containing 3 sections per document:
+
+1. full-text: The full string of the document
+2. tokens: The tokenized version of the full-text
+3. labels: The label of the token in BIO B- (beginning), I- (inside), or O (outside) format
+
+I want to quickly navigate snippets of the document containing the labels B- or I-. Can you suggest a sample code, a pipeline or a Python library for this use-case?

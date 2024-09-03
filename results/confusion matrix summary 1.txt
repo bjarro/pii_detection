@@ -1,0 +1,62 @@
+Observations:
+
+
+00 - O (Improved) - TP, Less FP
+
+01 - B_Email (Worse*) - No Recall (Worse), Okay FP (Better)
+   - misidentified as B_URL_Personal
+
+02 - B-ID_NUM (Improved) - A lot better recall, Better FP, Still a lot of FN
+08 - I-ID_NUM (Improved) - Not enough samples, no recall, smaller FP, 1 FN
+
+03 - B-Name_Student (Improved) - Good Recall (bit worse), Bad FP (greatly improved)
+09 - I-Name_Student (Improved) - Good Recall (bit worse), Bad FP (greatly improved)
+
+04 - B-Phone_Number (Improved*) - Not enough samples, No TP, No FP (greatly improved)
+   - some misidentified as B-ID_NUM
+10 - I-Phone-Number (Improved*)- Not enough samples, No TP, No FP (greatly improved)
+     - some misidentified as B-ID_NUM, I-ID_NUM
+     - note: More I- labels than B-
+
+05 - B-StreetAddress (Improved) - Only 1 sample, No recall, No FP (Greatly Improved)
+     - model does not try to guess
+11 - I- Street Address (Improved*) - Only 20 samples, No Recall (Worse), No FP (Greatly Improved)
+     - model does not try to guess
+
+06 - B-URL_Personal (Improved) - Okay recall(Improved), Bad FP, (Worse)
+   - no longer misidentified as EMAIL
+   - Recall can be improved
+12 - I-URL Personal - Only 1 sample no recall, no FP
+
+07 - B-Username - Not enough samples, no recall, no FP
+
+
+Summary:
+
+Old version: biased towards EMAIL, New - biased towards URL_PErsonal 
+
+
+To Do:
+ - Metrics
+   - Rewrite optimized version from confusion matrix
+   - Word-level metrics for fine-tuned
+   - Class-level metrics
+ - Persistence and comparison code
+
+To check:
+
+Where incorrect:
+  - B-NAME_STUDENT
+  - I-NAME_STUDENT
+
+Q: What are the properties of not detected NAME_STUDENT entities
+
+
+---
+
+Where misidentified
+  - B-Phone_Number, I-Phone-Number as  B-ID_NUM, I-ID_NUM
+  - B_Email as B-URL_Personal
+
+Q: How to distinguish between misidentified cases
+
