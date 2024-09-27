@@ -17,7 +17,7 @@ Attempt at PII Detection competition in Kaggle
  - [x] Iterative Improvements
 	 - [x] From Large Model
 		 - [x] Baseline (0.77) - Best model I can find in Model Hub (Adapted to dataset)
-		 - [x] Fine-tuned v0 (0.82) - Last layer unfrozen
+		 - [x] Fine-tuned v0 (0.83) - Last layer unfrozen
 		 - [ ] Fine-tuned v1 () - More layers unfrozen
 			 - [x] Does not fit in free GPU
 		 - [ ] Fine-tuned v1 () - Incorporate new dataset (OpenPII)
